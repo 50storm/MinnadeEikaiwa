@@ -175,4 +175,8 @@ Public Class Calener
     'End Sub
 
 
+    Protected Sub Button1_Click1(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("~/Form/WebForm1.aspx")
+
+    End Sub
 End Class

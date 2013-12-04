@@ -6,11 +6,11 @@
 </asp:Content>--%>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <script type="text/javascript">
+<%--    <script type="text/javascript">
      $(function(){
          $("h2").css("background-color", "red");
      });
- </script>
+ </script>--%>
 
 
     

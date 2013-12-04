@@ -41,5 +41,7 @@
        <p><asp:Label ID="Label5" runat="server" Text="Label">メールアドレス</asp:Label><asp:TextBox ID="txtMail" runat="server"></asp:TextBox>
            <input id="txtSample" type="text" /></p>
        <p><asp:Button ID="btnSubmit" runat="server" Text="Button" 
-               onclientclick="return isOk();" /></p>
+               onclientclick="return isOk();" />
+           <asp:Button ID="Button1" runat="server" Text="新規登録" />
+    </p>
 </asp:Content>
