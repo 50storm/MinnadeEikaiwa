@@ -115,6 +115,10 @@ Public Class Calener
         lblYear.Text = Calendar1.SelectedDate.Date.Year
         lblMonth.Text = Calendar1.SelectedDate.Date.Month
         lblDay.Text = Calendar1.SelectedDate.Date.Day
+
+
+        Response.Redirect("~/About.aspx")
+
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
